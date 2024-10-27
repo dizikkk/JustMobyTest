@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e684ced260bf4e83a3020f16f1641b5c, type: 3}
+  m_Name: UIFactoryConfig
+  m_EditorClassIdentifier: 
+  canvasPrefab: {fileID: 3522693075399541506, guid: c0286137f4bfdf640a9275f4fc378b26, type: 3}
+  MVCFactoryClassNameByViewName:
+    values:
+    - key: PurchaseWindowView
+      value: PurchaseWindowMVCFactory
+  windowPrefabs:
+  - {fileID: 8682574091557929719, guid: d3c4f0123fd27a441b3984e108f1fdbd, type: 3}
